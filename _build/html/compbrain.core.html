@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>compbrain.core package &mdash; Compbrain 0.0.2 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="compbrain.neurons package" href="compbrain.neurons.html" />
+    <link rel="prev" title="compbrain package" href="compbrain.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Compbrain
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">comp-brain-doc</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="compbrain.html">compbrain package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="compbrain.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">compbrain.core package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="compbrain.neurons.html">compbrain.neurons package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="compbrain.synapses.html">compbrain.synapses package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="compbrain.utils.html">compbrain.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="compbrain.html#module-compbrain">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="setup.html">setup module</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Compbrain</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">comp-brain-doc</a> &raquo;</li>
+          <li><a href="compbrain.html">compbrain package</a> &raquo;</li>
+      <li>compbrain.core package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/compbrain.core.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="compbrain-core-package">
+<h1>compbrain.core package<a class="headerlink" href="#compbrain-core-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-compbrain.core.circuit">
+<span id="compbrain-core-circuit-module"></span><h2>compbrain.core.circuit module<a class="headerlink" href="#module-compbrain.core.circuit" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">compbrain.core.circuit.</span></span><span class="sig-name descname"><span class="pre">Circuit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neurons</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">synapses</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Neuron circuit base class</p>
+<p>execute step by step
+execute the whole circuit: update synapses first, then update neurons</p>
+<dl class="simple">
+<dt>:argument</dt><dd><p>neurons: list of instantiated neurons
+synapses: list of instantiated synapses</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit.clear_circuit">
+<span class="sig-name descname"><span class="pre">clear_circuit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit.clear_circuit" title="Permalink to this definition"></a></dt>
+<dd><p>reset the whole circuit
+1. clear neurons
+2. clear synapses</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit.execute_circuit">
+<span class="sig-name descname"><span class="pre">execute_circuit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">notebook</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit.execute_circuit" title="Permalink to this definition"></a></dt>
+<dd><p>execute the whole circuit for all the time steps
+:param t: a time numpy array
+:return: None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit.execute_step">
+<span class="sig-name descname"><span class="pre">execute_step</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">synapses_policy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">neurons_policy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit.execute_step" title="Permalink to this definition"></a></dt>
+<dd><p>execute the whole circuit by one time step
+:param dt: dt
+:param synapses_policy: whether execute the synapses
+:param neurons_policy: whether execute the neurons
+:return: None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit.find_neuron">
+<span class="sig-name descname"><span class="pre">find_neuron</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit.find_neuron" title="Permalink to this definition"></a></dt>
+<dd><p>Find the instantiated neuron according its name
+:param name: the str type name for the neuron.
+:return: instantiated neuron</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.circuit.Circuit.reset_circuit">
+<span class="sig-name descname"><span class="pre">reset_circuit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.circuit.Circuit.reset_circuit" title="Permalink to this definition"></a></dt>
+<dd><p>reset the components in the circuit to their initial values</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-compbrain.core.errors">
+<span id="compbrain-core-errors-module"></span><h2>compbrain.core.errors module<a class="headerlink" href="#module-compbrain.core.errors" title="Permalink to this heading"></a></h2>
+<p>Comp-brain Exception Classes</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="compbrain.core.errors.CompBrainError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">compbrain.core.errors.</span></span><span class="sig-name descname"><span class="pre">CompBrainError</span></span><a class="headerlink" href="#compbrain.core.errors.CompBrainError" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Base Comp-brain Exceptions</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="compbrain.core.errors.CompBrainModelError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">compbrain.core.errors.</span></span><span class="sig-name descname"><span class="pre">CompBrainModelError</span></span><a class="headerlink" href="#compbrain.core.errors.CompBrainModelError" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#compbrain.core.errors.CompBrainError" title="compbrain.core.errors.CompBrainError"><code class="xref py py-class docutils literal notranslate"><span class="pre">CompBrainError</span></code></a></p>
+<p>Comp-brain Model Exceptions</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="compbrain.core.errors.CompBrainUtilsError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">compbrain.core.errors.</span></span><span class="sig-name descname"><span class="pre">CompBrainUtilsError</span></span><a class="headerlink" href="#compbrain.core.errors.CompBrainUtilsError" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#compbrain.core.errors.CompBrainError" title="compbrain.core.errors.CompBrainError"><code class="xref py py-class docutils literal notranslate"><span class="pre">CompBrainError</span></code></a></p>
+<p>Base Comp-brain Utility Exceptions</p>
+</dd></dl>
+
+</section>
+<section id="module-compbrain.core.node">
+<span id="compbrain-core-node-module"></span><h2>compbrain.core.node module<a class="headerlink" href="#module-compbrain.core.node" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="compbrain.core.node.BaseComponent">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">compbrain.core.node.</span></span><span class="sig-name descname"><span class="pre">BaseComponent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.node.BaseComponent" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Base component class for neurons and synapses</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.node.BaseComponent.append_children">
+<span class="sig-name descname"><span class="pre">append_children</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#compbrain.core.node.BaseComponent.append_children" title="Permalink to this definition"></a></dt>
+<dd><p>append child component in the children list</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>child</strong> – the child component of the current component(neuron or synapse)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>children list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.node.BaseComponent.append_parents">
+<span class="sig-name descname"><span class="pre">append_parents</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#compbrain.core.node.BaseComponent.append_parents" title="Permalink to this definition"></a></dt>
+<dd><p>append parent component in the parents list</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>parent</strong> – the parent component of the current component(neuron or synapse)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>parents list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.node.BaseComponent.compute">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">compute</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.node.BaseComponent.compute" title="Permalink to this definition"></a></dt>
+<dd><p>abstract method for computing the component value
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="compbrain.core.node.BaseComponent.reset_value">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">reset_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compbrain.core.node.BaseComponent.reset_value" title="Permalink to this definition"></a></dt>
+<dd><p>abstract method for resetting the components,
+depends on the components type, it can either:</p>
+<ol class="arabic simple">
+<li><p>reset the components to their initial values</p></li>
+<li><p>clear the states arrays</p></li>
+</ol>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-compbrain.core">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-compbrain.core" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="compbrain.html" class="btn btn-neutral float-left" title="compbrain package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="compbrain.neurons.html" class="btn btn-neutral float-right" title="compbrain.neurons package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Bo Yuan.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
